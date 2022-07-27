@@ -1,0 +1,70 @@
+{
+  "name": "ljc-components",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build:dev": "npm run delete && cross-env NODE_ENV=development rollup -c",
+    "build:prod": "npm run delete && cross-env NODE_ENV=production rollup -c",
+    "delete": "rimraf packages/**/dist",
+    "clean": "lerna clean",
+    "plop": "plop",
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "publish": "lerna publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.16.10",
+    "@babel/preset-env": "7.16.10",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/builder-webpack4": "^6.5.9",
+    "@storybook/jest": "^0.0.10",
+    "@storybook/manager-webpack4": "^6.5.9",
+    "@storybook/testing-library": "^0.0.13",
+    "@storybook/vue": "^6.5.9",
+    "@testing-library/vue": "5",
+    "@vue/server-test-utils": "1",
+    "@vue/test-utils": "1.3.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^25",
+    "babel-loader": "^8.2.5",
+    "cross-env": "^7.0.3",
+    "jest": "^25",
+    "jsdom": "^20.0.0",
+    "jsdom-global": "^3.0.2",
+    "lerna": "^5.3.0",
+    "postcss": "8",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.77.2",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-vue": "5",
+    "sass": "^1.54.0",
+    "storybook-addon-sass-postcss": "^0.1.3",
+    "vue-jest": "4",
+    "vue-loader": "^15.10.0",
+    "vue-server-renderer": "2.6.14",
+    "vue-template-compiler": "2.6.14"
+  },
+  "resolutions": {
+    "@babel/core": "<7.17.9",
+    "@babel/preset-env": "<7.17.9",
+    "@babel/generator": "<7.17.9"
+  },
+  "dependencies": {
+    "plop": "^3.1.1",
+    "vue": "2.6.14"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

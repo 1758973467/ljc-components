@@ -1,0 +1,15 @@
+{
+  "name": "lj-button",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "delete": "rimraf dist"
+  },
+  "keywords": [],
+  "author": "ljc <1758973467@qq.com>",
+  "license": "MIT"
+  
+}
