@@ -1,13 +1,11 @@
 {
   "name": "lj-link",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "lj-link component",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [],
   "author": "ljc <1758973467@qq.com>",
   "license": "MIT"
-  
 }
