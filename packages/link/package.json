@@ -1,6 +1,6 @@
 {
   "name": "ljc-link",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ljc-link component",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
