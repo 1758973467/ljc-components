@@ -1,10 +1,11 @@
 {
-  "name": "lj-input",
+  "name": "ljc-input",
   "version": "0.0.3",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "keywords": [],
   "author": "ljc <1758973467@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "73e8e00ea99d3a90cc6ff11b69a7591d560a9fd1"
 }

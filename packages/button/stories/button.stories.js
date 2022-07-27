@@ -1,8 +1,8 @@
-import LJButton from '../src/button.vue'
+import LJCButton from '../src/button.vue'
 import { fireEvent, screen, userEvent } from '@storybook/testing-library';
 export default {
-    title: 'lj-button',
-    component: LJButton,
+    title: 'ljc-button',
+    component: LJCButton,
 
 }
 
@@ -10,7 +10,7 @@ export default {
 
 const Template = (args) => ({
     components: { LJButton },
-    template: '<LJButton >test</LJButton>',
+    template: '<LJCButton >test</LJCButton>',
 });
 
 export const ClickExample = Template.bind({});

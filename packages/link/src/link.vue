@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: "lj-Link",
+  name: "ljc-Link",
   props: {
     href: {
       type: String,

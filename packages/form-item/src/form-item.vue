@@ -1,5 +1,5 @@
 <template>
-  <div class="lj-form-item">
+  <div class="ljc-form-item">
     <label :for="prop">{{ label }}</label>
     <div>
       <p v-if="errmessage">{{ errmessage }}</p>
@@ -12,7 +12,7 @@
 import Schema from "async-validator";
 
 export default {
-  name: "lj-form-item",
+  name: "ljc-form-item",
   props: {
     label: {
       type: String,

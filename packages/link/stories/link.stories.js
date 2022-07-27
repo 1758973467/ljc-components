@@ -1,8 +1,8 @@
-import LJLink from '../src/link.vue'
+import LJCLink from '../src/link.vue'
 
 export default {
-    title: 'lj-link',
-    component: LJLink,
+    title: 'ljc-link',
+    component: LJCLink,
     argTypes: {
         disabled: {
             options: [true, false],
@@ -19,9 +19,9 @@ export default {
     }
 }
 const Template = (args, { argTypes }) => ({
-    components: { LJLink },
+    components: { LJCLink },
     props: Object.keys(argTypes),
-    template: '<LJLink v-bind="$props" href="http://www.baidu.com">text</LJLink>',
+    template: '<LJCLink v-bind="$props" href="http://www.baidu.com">text</LJCLink>',
 });
 
 export const defaultUse = Template.bind({});

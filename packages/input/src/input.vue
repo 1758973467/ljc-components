@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "lj-input",
+  name: "ljc-input",
   props: {
     /**
      * 输入框类型

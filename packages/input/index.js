@@ -1,6 +1,6 @@
-import LJInput from './src/input.vue'
+import LJCInput from './src/input.vue'
 
-LJInput.install = Vue => {
-    Vue.component(LJInput.name, LJInput)
+LJCInput.install = Vue => {
+    Vue.component(LJCInput.name, LJCInput)
 }
-export default LJInput
+export default LJCInput

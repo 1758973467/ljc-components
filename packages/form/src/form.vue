@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "lj-form",
+  name: "ljc-form",
   props: {
     model: {
       type: Object,

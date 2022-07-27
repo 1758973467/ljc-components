@@ -1,6 +1,6 @@
-import LJSteps from './src/steps.vue'
+import LJCSteps from './src/steps.vue'
 
-LJSteps.install = Vue => {
-    Vue.component(LJSteps.name, LJSteps)
+LJCSteps.install = Vue => {
+    Vue.component(LJCSteps.name, LJCSteps)
 }
-export default LJSteps
+export default LJCSteps

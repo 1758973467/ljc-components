@@ -1,6 +1,6 @@
-import LJButton from './src/button.vue'
+import LJCButton from './src/button.vue'
 
-LJButton.install = Vue => {
-    Vue.component(LJButton.name, LJButton)
+LJCButton.install = Vue => {
+    Vue.component(LJCButton.name, LJCButton)
 }
-export default LJButton
+export default LJCButton

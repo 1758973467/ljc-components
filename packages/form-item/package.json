@@ -1,5 +1,5 @@
 {
-  "name": "lj-form-item",
+  "name": "ljc-form-item",
   "version": "0.0.3",
   "description": "",
   "main": "dist/cjs/index.js",
@@ -9,5 +9,6 @@
   "license": "MIT",
   "dependencies": {
     "async-validator": "^4.2.5"
-  }
+  },
+  "gitHead": "73e8e00ea99d3a90cc6ff11b69a7591d560a9fd1"
 }

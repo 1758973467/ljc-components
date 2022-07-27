@@ -1,7 +1,7 @@
-import LJLink from './src/link.vue'
+import LJCLink from './src/link.vue'
 
-LJLink.install = Vue => {
-  Vue.component(LJLink.name, LJLink)
+LJCLink.install = Vue => {
+  Vue.component(LJCLink.name, LJCLink)
 }
 
-export default LJLink
+export default LJCLink

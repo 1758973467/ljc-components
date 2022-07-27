@@ -1,6 +1,6 @@
-import LJFormItem from './src/form-item.vue'
+import LJCFormItem from './src/form-item.vue'
 
-LJFormItem.install = Vue => {
-    Vue.component(LJFormItem.name, LJFormItem)
+LJCFormItem.install = Vue => {
+    Vue.component(LJCFormItem.name, LJCFormItem)
 }
-export default LJFormItem
+export default LJCFormItem

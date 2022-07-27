@@ -1,13 +1,13 @@
 import { mount } from '@vue/test-utils'
-import LJInput from '../src/input.vue'
+import LJCInput from '../src/input.vue'
 import Vue from 'vue'
 describe('test input', () => {
     test('input-text', async () => {
-        const wrapper = mount(LJInput)
+        const wrapper = mount(LJCInput)
         expect(wrapper.html()).toContain('<input type="text"')
     })
     test('input-password', async () => {
-        const wrapper = mount(LJInput, {
+        const wrapper = mount(LJCInput, {
             propsData: {
                 type: 'password'
             }
@@ -16,7 +16,7 @@ describe('test input', () => {
         expect(wrapper.props('type')).toBe('password')
     })
     test('input-placeholder', async () => {
-        const wrapper = mount(LJInput, {
+        const wrapper = mount(LJCInput, {
             propsData: {
                 type: 'text',
                 placeholder: '请输入'
@@ -25,7 +25,7 @@ describe('test input', () => {
         expect(wrapper.html()).toContain('<input type="text" placeholder="请输入"')
     })
     test('input-placeholder', async () => {
-        const wrapper = mount(LJInput, {
+        const wrapper = mount(LJCInput, {
             propsData: {
                 type: 'text',
                 placeholder: '请输入'
@@ -34,7 +34,7 @@ describe('test input', () => {
         expect(wrapper.attributes().placeholder).toBe('请输入')
     })
     test('input-value', async () => {
-        const wrapper = mount(LJInput, {
+        const wrapper = mount(LJCInput, {
             propsData: {
                 value: 'admin'
             }
@@ -47,10 +47,10 @@ describe('test input', () => {
     test('input-v-model', async () => {
         const app = Vue.component('app', {
             components: {
-                LJInput
+                LJCInput
             },
             template: `<div>
-                     <LJInput v-model='value'/>
+                     <LJCInput v-model='value'/>
                      <p>{{value}}</p>
                 </div>`,
             data() {

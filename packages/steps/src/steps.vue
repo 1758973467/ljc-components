@@ -1,5 +1,5 @@
 <template>
-  <div class="lj-steps">
+  <div class="ljc-steps">
     <div class="line"></div>
     <div
       class="circle"
@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: "lj-steps",
+  name: "ljc-steps",
   props: {
     count: {
       type: Number,
@@ -40,7 +40,7 @@ export default {
 
 <style lang='scss' scope>
 $size: 50px;
-.lj-steps {
+.ljc-steps {
   position: relative;
   display: flex;
   justify-content: space-between;

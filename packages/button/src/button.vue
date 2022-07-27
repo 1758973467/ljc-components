@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "lj-button",
+  name: "ljc-button",
   props: {},
   methods: {
     handleClick(e) {

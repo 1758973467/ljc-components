@@ -1,8 +1,8 @@
-import LJSteps from '../src/steps.vue'
+import LJCSteps from '../src/steps.vue'
 import { screen, userEvent } from '@storybook/testing-library';
 export default {
-    title: 'lj-steps',
-    component: LJSteps,
+    title: 'ljc-steps',
+    component: LJCSteps,
     argTypes: {
         count: {
             control: {
@@ -18,9 +18,9 @@ export default {
     }
 }
 const Template = (args, { argTypes }) => ({
-    components: { LJSteps },
+    components: { LJCSteps },
     props: Object.keys(argTypes),
-    template: '<LJSteps v-bind="$props" ></LJSteps>',
+    template: '<LJCSteps v-bind="$props" ></LJCSteps>',
 });
 
 export const defaultUse = Template.bind({});

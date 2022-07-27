@@ -1,15 +1,15 @@
-import LJInput from '../src/input.vue'
+import LJCInput from '../src/input.vue'
 
 export default {
     title: 'lj-input',
-    component: LJInput,
+    component: LJCInput,
 
 }
 
 
 export const text = () => ({
-    components: { LJInput },
-    template: '<LJInput type="text" v-model="data"/>',
+    components: { LJCInput },
+    template: '<LJCInput type="text" v-model="data"/>',
     data() {
         return {
             data: ''
@@ -18,8 +18,8 @@ export const text = () => ({
 })
 
 export const password = () => ({
-    components: { LJInput },
-    template: '<LJInput type="password" v-model="data"/>',
+    components: { LJCInput },
+    template: '<LJCInput type="password" v-model="data"/>',
     data() {
         return {
             data: ''
